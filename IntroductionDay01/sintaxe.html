@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao PHP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<style>
+    .text-code{
+        background-color: rgb(85, 95, 95);
+        padding: 20px;
+        border-radius: 20px;
+        color: yellow;
+        margin: 10px 0;
+    }
+</style>
+<body class="bg-dark text-white">
+
+<div class="container mt-5">
+    <h1 class="text-center">Introdução ao PHP</h1>
+    <p class="lead">O PHP é uma linguagem de script de servidor amplamente utilizada para desenvolvimento web. Ele é especialmente adequado para criar páginas da web dinâmicas e interativas. O PHP pode ser incorporado diretamente no HTML e é compatível com uma variedade de bancos de dados, o que o torna uma escolha popular entre os desenvolvedores web.</p>
+    <p class="lead">Com o PHP, você pode realizar uma ampla gama de tarefas, incluindo manipulação de formulários, interação com bancos de dados, gerenciamento de sessões de usuário e muito mais. Sua sintaxe é semelhante a outras linguagens de programação, como C, Java e Perl, tornando-a relativamente fácil de aprender para aqueles que já estão familiarizados com programação.</p>
+    <p class="lead">Além disso, o PHP é uma linguagem de código aberto, o que significa que é gratuito para uso e distribuição. Sua comunidade ativa oferece uma vasta quantidade de recursos, bibliotecas e frameworks para facilitar o desenvolvimento web.</p>
+
+    <h1 class="text-center"> Dia 1-2: Introdução ao PHP: sintaxe básica, variáveis e tipos de dados</h1>
+    <h3><i class="fas fa-code"></i> Comando echo<i class="fas fa-code"></i></h3>
+
+    <p class="lead"> Comando echo forma simples: <br></p>
+        <div class="text-code">  echo 'Hello world';</div>
+        <p class="lead">Comando echo em expressão ternária: <br></p>
+        <div class="text-code">  $some_var = true;<br>echo ($some_var) ? 'true' : 'false';</div>
+
+
+   <p class="lead">Imprimindo aspas:</p>
+   <div class="text-code"> echo "Isto é uma \"aspas duplas\" dentro de uma string.";</div>
+    
+   <p class="lead">Imprimindo com printf():</p>
+   <div class="text-code">printf("Olá, meu nome é %s e eu tenho %d anos.", $nome, $idade);</div>
+
+   <h1 class="text-center">Tipos de Dados no PHP</h1>
+   <p class="lead">Inteiro(Integer)</p>
+   <div class="text-code">$idade = $40;</div>
+   <p class="lead">Ponto Flutuante (Float)</p>
+   <div class="text-code">$preco = 10.99;</div>
+   <p class="lead">String</p>
+    <div class="text-code">$nome = Jenny;</div> 
+    <p class="lead">Booleano(Boolean)</p>
+    <div class="text-code">Verdadeiro = true; <br> Falso = False;</div>  
+    <p class="lead">Array</p>
+    <div class="text-code">$frutas = array ('maca, 'mamao');</div>
+    <p class="lead">Object </p>
+    <div class="text-code">class Carro {<br> public $marca<br> } <br> $carro = new Carro ();<br> $carro->marca = "Toyota"; <br> $carro->marca = "Corolla"; </div>
+    
+
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
