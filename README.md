@@ -2,18 +2,11 @@
 
 Este é um projeto pessoal visando aprimorar meus conhecimentos em PHP.
 Consiste em estudar programação durante 100 dias sem pular nenhum dia.
-## 🎮🎮🎮 Como Usar:
 
-1. Faça download do projeto e descompacte a pasta.
-2. Copie e Cole a pasta nos eu "htdocs".
-3. Inicie o Apache.
-4. Coloque o caminho do localhost no seu navegador para acessar as paginas.
-5. Esse é um projeto Back End, portanto a maioria das atividades não terão telas.
+<p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
 
 
-
-   
-## 💻💻💻Conteúdo do Projeto
+## 💻Conteúdo do Projeto
 
 1. Cada Dia tem uma pasta com seu n° correspondente, exemplo: dia 1 (Day01).
 2. Nem todos os dias possuem códigos em si. Em dias de teorias e revisões, terão mapas mentais feitos com base nos estudos.
@@ -46,8 +39,27 @@ Consiste em estudar programação durante 100 dias sem pular nenhum dia.
 | `23` | `  Práticas com Switch case` | Anotações e mapas mentais sobre Switch Case. |
 | `24` | `  Lista de exercicios pt.1` | Exercícios abordando todo o conteúdo até agora. |
 | `25` | `  Lista de exercicios pt.2` | Exercícios abordando todo o conteúdo até agora. |
-## 🌟🌟🌟Colaboradores
 
+## Como Usar:
+
+1. Faça download do projeto e descompacte a pasta.
+2. Copie e Cole a pasta nos eu "htdocs".
+3. Inicie o Apache.
+4. Coloque o caminho do localhost no seu navegador para acessar as paginas.
+5. Esse é um projeto Back End, portanto a maioria das atividades não terão telas.
+
+## Repositórios de projetos desenvolvidos:
+
+<h3>Formulário de Produtos</h3> 
+
+[![Outro Repositório](https://img.shields.io/badge/%20Repositório-Ver%20Aqui-pink.svg)](https://github.com/JennieOliveira99/Formulario-Produtos)
+
+<h3>Cifra de César</h3> 
+
+[![Outro Repositório](https://img.shields.io/badge/%20Repositório-Ver%20Aqui-purple.svg)](https://github.com/JennieOliveira99/Cifra_de_Cesar)
+
+
+## Colaboradores
 
 <h2>🌸Jennyfer Alvim</h2> 
 
