@@ -1,0 +1,5 @@
+//saber criar funcoes para identificar maior ou menor valor dentro de array
+
+aprender ternario
+
+praticas har de foreache e logica

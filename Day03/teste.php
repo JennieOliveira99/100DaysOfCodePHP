@@ -23,6 +23,16 @@ if($verificacao == 0){
 }
 
 
+//Desenvolva um programa PHP que determine se um aluno foi aprovado em uma disciplina com base na sua nota. Considere que a nota mínima para aprovação é 7.
+
+$nota = 8;
+ 
+if ($nota >= 7){
+    echo "aprovado";
+}else {
+   echo "reprovado";
+}
+
 
 //Crie um script PHP que determine se uma pessoa pode votar com base na sua idade. Considere que no Brasil, a idade mínima para votar é 16 anos.
 

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #040205;
+            h1, p{
+                color: #cdedee;
+            }
+            h1{
+                margin-left: 130px;
+            }
+        }
+
+ .card-principal {
+            margin-top: 50px; 
+        }
+
+.side {
+    position: relative;
+  
+    overflow: hidden; /* Para esconder a parte da imagem que ultrapassa a altura */
+}
+
+.img-side {
+    margin-top: 20px;
+ 
+    bottom: 0; /* Inicialmente, a imagem começa no fundo da área */
+    animation: moveUpDown 2s ease-in-out infinite ; /* Alternância entre subida e descida */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* No início, a imagem está no lugar */
+    }
+    50% {
+        transform: translateY(-9px); /* No meio, a imagem move um pouco para cima */
+    }
+    100% {
+        transform: translateY(0); /* No final, a imagem volta ao lugar */
+    }
+}
+
+
+
+
+        .card-input {
+            margin-top: 20px; 
+            padding: 5px;
+        }
+        /*text box*/
+        .form-control{
+            height: 200px;
+            width: 100%;
+            background-color: rgba(178, 115, 233, 0.548);
+            color: #fff;
+        }
+
+        button{
+            margin-top: 10px;
+            background-color: rgb(120, 120, 228);
+            color: #fff;
+            border-radius: 10px;
+            padding: 3px;
+            width: 150px;
+        }
+
+        button:hover{
+            background-color:#cdedee;
+            border: 1px solid #fff;
+            color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <div class="card-principal">
+                    <h1>Cifra de Cesar</h1>
+                 
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="side">
+                    <img class="img-side" src="img.jpg" width="500px" alt="Imagem Lateral">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form action="index.php" method="post">
+                    <div class="card-input">
+                        <p>Escreva o que quer codificar:</p>
+                        <input type="text" class="form-control" name="frase" placeholder="Escreva alguma frase aqui......">
+
+                        <button>Codificar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

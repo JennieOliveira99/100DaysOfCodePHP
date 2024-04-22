@@ -13,13 +13,13 @@ echo 'Isto é uma \'aspas simples\' dentro de uma string.';
 
 //Inteiro(Integer)
 
-$idade = $40;
+$idade = 40;
 
 //Ponto Flutuante (Float)
 
 $preco = 10.99;
 //string
-$nome = Jenny;
+$nome = 'Jenny';
 
 //boolean
 $verdadeiro = true;
@@ -36,8 +36,6 @@ $dadosPessoa = array(
 echo $dadosPessoa["nome"]; // Saída: João
 echo $dadosPessoa["idade"]; // Saída: 30
 echo $dadosPessoa["cidade"]; // Saída: São Paulo
-
-
 
 //Printf
 printf("Olá, meu nome é %s e eu tenho %d anos.", $nome, $idade);

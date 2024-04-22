@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--ceckbox e radio para evitar erros de digitação de usuarios-->
+     <!--checkbox para mais de uma opção-->
+     <!-- radio para apenas 1 opção(mas tem que ser o mesmo name) -->
+    <form action="gravar.php" method="post">
+        <h1>Linguagens</h1>
+        <!--fazendo com que quando o usuario clique nas palavras, selecione o checkbos atraves do label-->
+        <label for="php"><!--esse "php" é um id que tem que chamar(referenciar) no input-->
+            <input type="checkbox" id="php" name="Linguagem[]" value="PHP">PHP
+        </label>
+       
+        <label for="js">
+        <input type="checkbox" id="js" name="Linguagem[]" value="JS">JS
+        </label>
+
+        <label for="csharp">
+        <input type="checkbox" id="csharp" name="Linguagem[]" value="C#">C#
+            </label>
+        <br>
+
+        <h1>Grau de conhecimento</h1>
+        <!--CHECKED: deixando Junior marcado para evitar que o usuario nao marque nada-->
+        <input type="radio" name="conhecimento" value="Junior" checked>Junior
+        <input type="radio" name="conhecimento" value="Pleno">Pleno
+        <input type="radio" name="conhecimento" value="Senior">Senior
+        <br>
+
+        <h1>Escolaridade</h1>
+        <!--usando select option-->
+        <select name="Escolaridade">
+        <option value="">Selecione</option>
+        <option value="Ensino Medio">Ensino Medio</option>
+        <option value="Tecnico">Tecnico</option>
+        <option value="Superior">Superior</option>
+        <option value="Especializacao">Especializacao</option>
+    </select>
+        <br>
+    
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
