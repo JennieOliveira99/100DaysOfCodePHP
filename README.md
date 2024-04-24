@@ -1,16 +1,15 @@
 <h1 align="center">100 DAYS OF CODE Back End PHP💻 </h1>
 
-Este é um projeto pessoal visando aprimorar meus conhecimentos em PHP.
-Consiste em estudar programação durante 100 dias sem pular nenhum dia.
+Bem-vindo ao meu desafio de 100 dias de programação em PHP! Aqui, estou comprometida em aprimorar minhas habilidades nesta linguagem incrível. O objetivo é simples: estudar e praticar programação todos os dias, sem exceção, ao longo de 100 dias consecutivos.
+
+Junte-se a mim nesta jornada de crescimento e aprendizado. Estou animada para compartilhar minhas experiências, desafios e conquistas ao longo do caminho.
 
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
 
 
-## 💻Conteúdo do Projeto
-
-1. Cada Dia tem uma pasta com seu n° correspondente, exemplo: dia 1 (Day01).
-2. Nem todos os dias possuem códigos em si. Em dias de teorias e revisões, terão mapas mentais feitos com base nos estudos.
-
+## 💻Roteiro de Estudos
+Meu roteiro está focado em Estrutura de Dados com PHP pois vejo as estruturas de dados como a base para a resolução eficiente de problemas complexos no desenvolvimento de software.
+Para formar meu roteiro de estudos eu me baseei no livro: "PHP Programando com Orientação a Objetos" de Pablo Dall'Oglio e nos tópicos da matéria Estrutura de Dados com PHP, matéria essa que tenho toda quinta-feira na Fatec São Roque.
 
 | Dia  | Tema       | Descrição                           |
 | :---------------- | :--------- | :---------------------------------- |
@@ -39,6 +38,7 @@ Consiste em estudar programação durante 100 dias sem pular nenhum dia.
 | `23` | `  Práticas com Switch case` | Anotações e mapas mentais sobre Switch Case. |
 | `24` | `  Lista de exercicios pt.1` | Exercícios abordando todo o conteúdo até agora. |
 | `25` | `  Lista de exercicios pt.2` | Exercícios abordando todo o conteúdo até agora. |
+| `26` | `  Lista de exercicios pt.2` | Exercícios abordando todo o conteúdo até agora. |
 
 ## Como Usar:
 
@@ -46,7 +46,7 @@ Consiste em estudar programação durante 100 dias sem pular nenhum dia.
 2. Copie e Cole a pasta nos eu "htdocs".
 3. Inicie o Apache.
 4. Coloque o caminho do localhost no seu navegador para acessar as paginas.
-5. Esse é um projeto Back End, portanto a maioria das atividades não terão telas.
+5. Esse é um projeto Back End, portanto a maioria das atividades não possuem telas.
 
 ## Repositórios de projetos desenvolvidos:
 
@@ -54,14 +54,17 @@ Consiste em estudar programação durante 100 dias sem pular nenhum dia.
 
 [![Outro Repositório](https://img.shields.io/badge/%20Repositório-Ver%20Aqui-pink.svg)](https://github.com/JennieOliveira99/Formulario-Produtos)
 
+
+
 <h3>Cifra de César</h3> 
 
 [![Outro Repositório](https://img.shields.io/badge/%20Repositório-Ver%20Aqui-purple.svg)](https://github.com/JennieOliveira99/Cifra_de_Cesar)
 
+##
+<p>Quer partipicar do projeto e não sabe por onde começar? Que tal dar uma olhadinha nas regras do desafio?</p>
 
-## Colaboradores
+[![Outro Repositório](https://img.shields.io/badge/%20Repositório-Ver%20Aqui-pink.svg)](https://github.com/sspacecoding/100DiasSpaceCoders)
 
-<h2>🌸Jennyfer Alvim</h2> 
 
 
 
