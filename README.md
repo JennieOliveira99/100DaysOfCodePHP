@@ -38,8 +38,10 @@ Para formar meu roteiro de estudos eu me baseei no livro: "PHP Programando com O
 | `23` | `  Práticas com Switch case` | Anotações e mapas mentais sobre Switch Case. |
 | `24` | `  Lista de exercicios pt.1` | Exercícios abordando todo o conteúdo até agora. |
 | `25` | `  Lista de exercicios pt.2` | Exercícios abordando todo o conteúdo até agora. |
-| `26` | `  Lista de exercicios pt.2` | Exercícios abordando todo o conteúdo até agora. |
-
+| `26` | `  Lista de exercicios pt.3` | Exercícios abordando todo o conteúdo até agora. Finalizando o projeto de Criptografia. |
+| `27` | `  Lista de exercicios pt.final` | Exercícios abordando todo o conteúdo até agora. |
+| `28` | `  Aula Faculdade` | Dia 28: Integração de dados com JSON e PHP  |
+| `29` | `  29-30: Teoria sobre pillhas em PHP` | Dia 29: Conceitos e anotações.  |
 ## Como Usar:
 
 1. Faça download do projeto e descompacte a pasta.
