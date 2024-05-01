@@ -42,6 +42,10 @@ Para formar meu roteiro de estudos eu me baseei no livro: "PHP Programando com O
 | `27` | `  Lista de exercicios pt.final` | Exercícios abordando todo o conteúdo até agora. |
 | `28` | `  Aula Faculdade` | Dia 28: Integração de dados com JSON e PHP  |
 | `29` | `  29-30: Teoria sobre pillhas em PHP` | Dia 29: Conceitos e anotações.  |
+| `30` | `  29-30: Teoria sobre pillhas em PHP` | Dia 29: Conceitos e anotações.  |
+| `31` | `  Prática com pilhas em PHP` | Exercícios simples explorando o conceito de pilhas.  |
+| `32` | `  Integração de condicionais com pilhas` | Exercícios simples explorando o conceito de pilhas com integração de condicionais   |
+| `33` | `  Práticas` | Prática adicional com condicionais e pilhas  |
 ## Como Usar:
 
 1. Faça download do projeto e descompacte a pasta.
