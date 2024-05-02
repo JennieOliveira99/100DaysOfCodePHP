@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário</title>
+</head>
+<body>
+
+<h2>Formulário</h2>
+
+<form action="gravar.php" method="post">
+    <label for="codigo">Código:</label>
+    <input type="number" name="codigo" placeholder="codigo"><br>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" placeholder="nome"><br>
+    <label for="sexo">Sexo:</label>
+    <select id="sexo" name="sexo">  
+      <option value="">Selecione...</option>
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+    </select>
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>

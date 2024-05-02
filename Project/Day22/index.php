@@ -1,0 +1,2 @@
+<?php
+//praticas switch case
