@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Produtos</title>
+    <!--BOOTSTRAP LINKS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+ 
+
+    <section>
+        <form action="index.php" method="post">
+            <h1>Cadastro de Produtos</h1>
+
+            <!--Categorias-->
+            <h2>Selecione a Categoria</h2>
+            <select name="Categoria">
+                <option value="">Selecione</option>
+                <option value="Alimenticio">Alimentício</option>
+                <option value="Brinquedos">Brinquedos</option>
+                <option value="Eletronico">Eletrônico</option>
+                <option value="Escolar">Escolar</option>
+                <option value="Farmaceutico">Farmacêutico</option>
+                <option value="Ferramentas">Ferramentas</option>
+                <option value="Moveis">Móveis</option>
+                <option value="Utensilios">Utensílios Domésticos</option>
+                <option value="Vestuario">Vestuário</option>
+            </select>
+            
+
+            <!--Nome do Produto-->
+            <h2>Nome do Produto: </h2>
+            <label for="nome"> Adcionar nome do produto: </label>
+            <input type="text" id="nome" name="NomeProduto" required>
+            <!--required: validacao de que digitou o nome antes de enviar-->
+
+
+            <!--Marca -->
+
+            <h2>Marca do Produto: </h2>
+            <label for="marca"> Adcionar marca do produto: </label>
+            <input type="text" id="marca" name="NomeMarca" required>
+
+            
+            <!--Descricao -->
+
+            <h2>Descricao do Produto: </h2>
+            <label for="descricao"> Adcionar descricao do produto: </label>
+            <input type="text" id="descricao" name="DescricaoProduto" required>
+
+
+            <!--Disponibilidade -->
+            <h2>Disponibilidade: </h2>
+
+            <label for="disponivel"><!--se usuario clicar na palavra, o radio é selecionado-->
+                <input type="radio" id="disponivel" name="disponibilidade" value="Disponivel" checked>Disponível</label>
+            <label for="indisponivel">
+                <input type="radio" id="indisponivel" name="disponibilidade" value="Indisponivel">Indisponível</label>
+            <label for="emFalta">
+                <input type="radio" id="emFalta" name="disponibilidade" value="EmFalta">Em Falta</label>
+            <label for="emPreVenda">
+                <input type="radio" id="emPreVenda" name="disponibilidade" value="EmPreVenda">Em Pré Venda</label>
+            <label for="foraDeEstoque">
+                <input type="radio" id="foraDeEstoque" name="disponibilidade" value="ForaDeEstoque">Fora De
+                Estoque</label>
+
+
+            <!--Preço -->
+
+            <h2>Preço do Produto: </h2>
+            <label for="Preco"> Adcionar Preço do produto: </label>
+            <input type="text" id="Preco" name="valorPreco" required>
+            <!--required: validacao de que digitou o nome antes de enviar-->
+
+
+            <!--Dimensoes -->
+            <!--<label for="tamanho">Tamanho:</label>
+        <input type="range" id="tamanho" name="tamanho" min="0" max="100"> -->
+
+            <h2>Dimensoes do Produto: </h2>
+            <label for="altura"> Altura: </label>
+            <input type="number" id="altura" name="DimensaoProdutoAltura" required>
+            <label for="largura"> Largura: </label>
+            <input type="number" id="largura" name="DimensaoProdutoLargura" required>
+
+            <!--Material -->
+            <h2>Selecione Material do Produto: </h2>
+
+            <div class="Alimenticio-section">
+                <h3>Alimenticio</h3>
+                <label for="bebidas">
+                    <input type="checkbox" id="bebidas" name="Materiais[]" value="Bebidas">Bebidas
+                </label>
+                <label for="carnes">
+                    <input type="checkbox" id="carnes" name="Materiais[]" value="Carnes ">Carnes 
+                </label>
+                <label for="frutas">
+                    <input type="checkbox" id="frutas" name="Materiais[]" value="Frutas">Frutas
+                </label>
+                <label for="panificacao">
+                    <input type="checkbox" id="panificacao" name="Materiais[]" value="Panificacao">Produtos de panificação
+                </label>
+                <label for="lacteos">
+                    <input type="checkbox" id="lacteos" name="Materiais[]" value="Lacteos">Produtos lácteos
+                </label>
+                
+            </div>
+
+            <div class="Brinquedos-section">
+                <h3>Brinquedos</h3>
+                <label for="borracha">
+                    <input type="checkbox" id="borracha" name="Materiais[]" value="Borracha">Borracha
+                </label>
+                <label for="metal">
+                    <input type="checkbox" id="metal" name="Materiais[]" value="Metal">Metal
+                </label>
+                <label for="plastico">
+                    <input type="checkbox" id="plastico" name="Materiais[]" value="Plastico">Plástico
+                </label>
+                <label for="tecido">
+                    <input type="checkbox" id="tecido" name="Materiais[]" value="Tecido">Tecido (para pelúcias)
+                </label>
+            </div>
+
+
+           
+
+            <div class="Eletronico-section">
+                <h3>Eletrônicos</h3>
+                <label for="aluminio">
+                    <input type="checkbox" id="aluminio" name="Materiais[]" value="Aluminio">Alumínio
+                </label>
+                <label for="borracha">
+                    <input type="checkbox" id="borracha" name="Materiais[]" value="Borracha">Borracha
+                </label>
+                <label for="metal">
+                    <input type="checkbox" id="metal" name="Materiais[]" value="Metal">Metal
+                </label>
+                <label for="plastico">
+                    <input type="checkbox" id="plastico" name="Materiais[]" value="Plastico">Plástico
+                </label>
+                <label for="silicone">
+                    <input type="checkbox" id="silicone" name="Materiais[]" value="Silicone">Silicone
+                </label>
+                <label for="vidro">
+                    <input type="checkbox" id="vidro" name="Materiais[]" value="Vidro">Vidro Temperado
+                </label>
+            </div>
+
+            <div class="Escolar-section">
+                <h3>Escolar</h3>
+                <label for="aluminio_escolar">
+                    <input type="checkbox" id="aluminio_escolar" name="Materiais[]" value="AluminioEscolar">Alumínio
+                </label>
+                <label for="borracha_escolar">
+                    <input type="checkbox" id="borracha_escolar" name="Materiais[]" value="BorrachaEscolar">Borracha
+                </label>
+                <label for="metal_escolar">
+                    <input type="checkbox" id="metal_escolar" name="Materiais[]" value="MetalEscolar">Metal
+                </label>
+                <label for="plastico_escolar">
+                    <input type="checkbox" id="plastico_escolar" name="Materiais[]" value="PlasticoEscolar">Plástico
+                </label>
+                <label for="silicone_escolar">
+                    <input type="checkbox" id="silicone_escolar" name="Materiais[]" value="SiliconeEscolar">Silicone
+                </label>
+            </div>
+            
+            
+            <div class="Farmaceutico-section">
+                <h3>Farmacêutico</h3>
+                <label for="aluminio_farma">
+                    <input type="checkbox" id="aluminio_farma" name="Materiais[]" value="AluminioFarma">Alumínio
+                </label>
+                <label for="borracha_farma">
+                    <input type="checkbox" id="borracha_farma" name="Materiais[]" value="BorrachaFarma">Borracha
+                </label>
+                <label for="metal_farma">
+                    <input type="checkbox" id="metal_farma" name="Materiais[]" value="MetalFarma">Metal
+                </label>
+                <label for="plastico_farma">
+                    <input type="checkbox" id="plastico_farma" name="Materiais[]" value="PlasticoFarma">Plástico
+                </label>
+                <label for="vidro_farma">
+                    <input type="checkbox" id="vidro_farma" name="Materiais[]" value="VidroFarma">Vidro
+                </label>
+            </div>
+            
+            <div class="Ferramentas-section">
+                <h3>Ferramentas</h3>
+                <label for="aco_carbono">
+                    <input type="checkbox" id="aco_carbono" name="Materiais[]" value="AcoCarbono">Aço Carbono
+                </label>
+                <label for="aco_inox">
+                    <input type="checkbox" id="aco_inox" name="Materiais[]" value="AcoInox">Aço Inoxidável
+                </label>
+                <label for="aluminio_ferramentas">
+                    <input type="checkbox" id="aluminio_ferramentas" name="Materiais[]" value="AluminioFerramentas">Alumínio
+                </label>
+                <label for="plastico_ferramentas">
+                    <input type="checkbox" id="plastico_ferramentas" name="Materiais[]" value="PlasticoFerramentas">Plástico
+                </label>
+                <label for="revestido_fibra">
+                    <input type="checkbox" id="revestido_fibra" name="Materiais[]" value="RevestidoFibra">Plástico Revestido(FRP)
+                </label>
+            </div>
+            
+
+
+          
+            <div class="Utensilios-section">
+                <h3>Utensílios Domésticos</h3>
+                <label for="aluminio_utensilios">
+                    <input type="checkbox" id="aluminio_utensilios" name="Materiais[]" value="AluminioUtensilios">Alumínio
+                </label>
+                <label for="borracha_utensilios">
+                    <input type="checkbox" id="borracha_utensilios" name="Materiais[]" value="BorrachaUtensilios">Borracha
+                </label>
+                <label for="plastico_utensilios">
+                    <input type="checkbox" id="plastico_utensilios" name="Materiais[]" value="PlasticoUtensilios">Plástico
+                </label>
+                <label for="silicone_utensilios">
+                    <input type="checkbox" id="silicone_utensilios" name="Materiais[]" value="SiliconeUtensilios">Silicone
+                </label>
+                <label for="vidro_utensilios">
+                    <input type="checkbox" id="vidro_utensilios" name="Materiais[]" value="VidroUtensilios">Vidro
+                </label>
+            </div>
+
+            
+            <div class="Vestuario-section">
+                <h3>Vestuário</h3>
+                <label for="algodao">
+                    <input type="checkbox" id="algodao" name="Materiais[]" value="Algodao">Algodão
+                </label>
+                <label for="couro">
+                    <input type="checkbox" id="couro" name="Materiais[]" value="Couro">Couro
+                </label>
+                <label for="la">
+                    <input type="checkbox" id="la" name="Materiais[]" value="La">Lã
+                </label>
+                <label for="nylon">
+                    <input type="checkbox" id="nylon" name="Materiais[]" value="Nylon">Nylon
+                </label>
+                <label for="poliester">
+                    <input type="checkbox" id="poliester" name="Materiais[]" value="Poliester">Poliéster 
+                </label>
+            </div>
+            
+
+            <!--Codigo de barras-->
+
+            <h2>Codigo de barras: </h2>
+            <label for="barras"> Adcionar Codigo de barras: </label>
+            <input type="number" id="barras" name="CodigoDeBarras" required>
+            <!--required: validacao de que digitou o nome antes de enviar-->
+
+            <!--Data de validade -->
+            <h2>Data de validade</h2>
+            <label for="data">Selecione uma data:</label>
+            <input type="date" id="data" name="data">
+              
+        
+            <!--Garantia -->
+
+        
+            <h2>Garantia: </h2>
+            <label for="garantia_1_mes">
+                <input type="radio" id="garantia_1_mes" name="garantia" value="garantia_1_mes" checked>1 mês
+            </label>
+            <label for="garantia_3_meses">
+                <input type="radio" id="garantia_3_meses" name="garantia" value="garantia_3_meses">3 meses
+            </label>
+            <label for="garantia_6_meses">
+                <input type="radio" id="garantia_6_meses" name="garantia" value="garantia_6_meses">6 meses
+            </label>
+            <label for="garantia_1_ano">
+                <input type="radio" id="garantia_1_ano" name="garantia" value="garantia_1_ano">1 ano
+            </label>
+            
+
+            <!--Avaliações -->
+            <h2>Avaliações</h2>
+
+            <label for="tamanho">Qualidade:</label>
+            <input type="range" id="tamanho" name="tamanho" min="0" max="100">
+            <output for="tamanho" id="avaliacao"><?php echo "Regular"; ?></output>
+
+            <p>0 - Péssimo | 50 - Regular | 80 - Bom | 100 - Excelente</p>
+
+            <!--Condicoes de conservacao -->
+
+            <h2>Conservação do Item:</h2>
+            <label for="embalagem_a_vacuo">
+                <input type="radio" id="embalagem_a_vacuo" name="conservacao" value="embalagem_a_vacuo" checked>Embalagem a vácuo
+            </label>
+            <label for="controle_temperatura_umidade">
+                <input type="radio" id="controle_temperatura_umidade" name="conservacao" value="controle_temperatura_umidade">Controle de temperatura e umidade
+            </label>
+            <label for="local_fresco_seco">
+                <input type="radio" id="local_fresco_seco" name="conservacao" value="local_fresco_seco" >Armazenamento em local fresco e seco
+            </label>
+            <label for="manutencao_regular">
+                <input type="radio" id="manutencao_regular" name="conservacao" value="manutencao_regular">Manutenção regular
+            </label>
+            <label for="produtos_quimicos_conservantes">
+                <input type="radio" id="produtos_quimicos_conservantes" name="conservacao" value="produtos_quimicos_conservantes">Utilização de produtos químicos conservantes
+            </label>
+            <label for="refrigeracao">
+                <input type="radio" id="refrigeracao" name="conservacao" value="refrigeracao">Refrigeração
+            </label>
+            
+            <!--Nome Fabricante -->
+
+            <h2>Nome do Fabricante: </h2>
+            <label for="fabricante"> Adcionar Nome do Fabricante: </label>
+            <input type="text" id="fabricante" name="NomeDoFabricante" required>
+
+            <!--Endereço Fabricante-->
+            <h2>Endereço do Fabricante: </h2>
+            <label for="endereco">Adcionar Endereço do Fabricante: </label>
+            <input type="text" id="endereco" name="EnderecoFabricante" required>
+
+            <br><br>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+</body>
+
+</html>
