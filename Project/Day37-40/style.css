@@ -1,0 +1,85 @@
+/* Estilo do Formulário */
+body {
+    background-color: #f0f0f0;
+}
+
+.todo-container {
+    max-width: 400px;
+    margin: 3rem auto;
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.todo-container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 2px solid #691248;
+    font-family: 'Times New Roman', Times, serif;
+    color: #691248;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #691248;
+}
+
+.form-control input[type="text"],
+.form-control input[type="email"],
+.form-control select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Estilizando as categorias */
+.category-options {
+    display: flex;
+}
+
+.category-options label {
+    margin-right: 1rem;
+    color: #691248;
+}
+
+.form-control input[type="radio"] {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+    background-color: #691248;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff009d;
+}
+
+
+/*estilo da mensagem php*/
+.message-container {
+    background-color: #691248;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-align: center; 
+}
+
+.success-message {
+    font-size: 1.1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,5 @@
+No terminal:
+sudo /opt/lampp/lampp startapache
+
+Na Url:
+localhost/100/100DaysOfCodePHP/Project/nome_do_arquivo.php

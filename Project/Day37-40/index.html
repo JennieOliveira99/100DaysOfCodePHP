@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Pedido de Audiobook</title>
+</head>
+<body>
+
+<div class="todo-container">
+    <header>
+         <h1>Formulário de Pedido de Audiobook</h1>
+    </header>
+    <form id="audiobook-form" action="pedido.php" method="POST">
+        <div class="form-control">
+            <label for="nome-livro">Nome do Livro:</label>
+            <input type="text" id="nome-livro" name="nome_livro" placeholder="Digite o nome do livro" required>
+        </div>
+        <div class="form-control category-options">
+            <label for="acao"><input type="radio" id="acao" name="category" value="acao"> Ação </label>
+            <label for="aventura"><input type="radio" id="aventura" name="category" value="aventura"> Aventura </label>
+            <label for="romance"><input type="radio" id="romance" name="category" value="romance"> Romance</label>
+            <label for="suspense"><input type="radio" id="suspense" name="category" value="suspense"> Suspense</label>
+            <label for="outros"><input type="radio" id="outros" name="category" value="outros"> Outros </label>
+        </div>
+        
+        <div class="form-control">
+            <label for="autor">Autor:</label>
+            <input type="text" id="autor" name="autor" placeholder="Digite o nome do autor" required>
+        </div>
+        <div class="form-control">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+        <div class="form-control">
+            <label for="email">Seu Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+        </div>
+        <button type="submit">Enviar Pedido</button>
+    </form>
+</div>
+
+</body>
+</html>
