@@ -46,6 +46,15 @@ Para formar meu roteiro de estudos eu me baseei no livro: "PHP Programando com O
 | `31` | `  Prática com pilhas em PHP` | Exercícios simples explorando o conceito de pilhas.  |
 | `32` | `  Integração de condicionais com pilhas` | Exercícios simples explorando o conceito de pilhas com integração de condicionais   |
 | `33` | `  Práticas` | Prática adicional com condicionais e pilhas  |
+| `34` | `  Práticas` | Prática adicional com Lista duplamente encadeada |
+| `35` | `  Aula Faculdade` | Práticas com Json e PHP  |
+| `37` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulpario de pedidos de áudiobook utilizando Filas |
+| `38` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulpario de pedidos de áudiobook utilizando Filas |
+| `39` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulpario de pedidos de áudiobook utilizando Filas |
+| `40` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulpario de pedidos de áudiobook utilizando Filas |
+| `41` | `  Revisão de Classes` | Prática adicional com condicionais e pilhas  |
+| `42` | `  Revisão de Classes` | Prática adicional com condicionais e pilhas  |
+
 ## Como Usar:
 
 1. Faça download do projeto e descompacte a pasta.
