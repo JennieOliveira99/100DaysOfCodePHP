@@ -1,0 +1,4 @@
+//include: se o script nao existe ele da um warning e nao fatal erro, nao para a execucao, cahama mais de uma vez caso seja feita mais d e uma vez
+//include_once: se o script foi incluido  mais de uma vez ele chama uma vez apenas
+//require: se nao existe da fatal erro, nao carrega o restante da pagina, carrega mais de 1 vez
+//require_once: ele so inclui uma vez o script

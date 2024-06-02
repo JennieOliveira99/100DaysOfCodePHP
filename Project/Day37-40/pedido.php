@@ -1,5 +1,9 @@
 <?php
 
+// Incluindo o arquivo que define a classe EmailValidator
+require_once 'EmailValidator.php';
+
+
 // Definindo a constante para o limite de solicitações por minuto
 define('MAX_REQUESTS_PER_MINUTE', 10);
 
@@ -19,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Limite de solicitações excedido
         echo "Limite de solicitações excedido. Tente novamente mais tarde.";
         exit;
-    }
+    }mnnmn
 
     // Adicionar a nova solicitação à fila
     $novaSolicitacao = [

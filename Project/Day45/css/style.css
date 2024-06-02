@@ -1,0 +1,63 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte para o corpo do texto */
+    background-color: #f2f2f2; /* Define a cor de fundo */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+/* Estilo para a seção de formulário */
+section {
+    max-width: 800px; /* Define a largura máxima da seção */
+    margin: 20px auto; /* Centraliza a seção na página */
+    padding: 20px; /* Adiciona um preenchimento interno */
+    background-color: #fff; /* Define a cor de fundo */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+
+/* Estilo para o título do formulário */
+h1 {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+/* Estilo para os títulos das seções do formulário */
+h2 {
+    margin-top: 30px; /* Adiciona espaço acima do título */
+}
+
+/* Estilo para os rótulos dos campos de entrada */
+label {
+    display: block; /* Faz os rótulos aparecerem em uma nova linha */
+    margin-top: 10px; /* Adiciona espaço acima dos rótulos */
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%; /* Define a largura total */
+    padding: 10px; /* Adiciona preenchimento interno */
+    margin-top: 5px; /* Adiciona espaço acima dos campos de entrada */
+    margin-bottom: 15px; /* Adiciona espaço abaixo dos campos de entrada */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    box-sizing: border-box; /* Garante que o preenchimento e a borda não aumentem a largura total */
+}
+
+/* Estilo para os botões */
+button[type="submit"] {
+    background-color: #007bff; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    padding: 10px 20px; /* Adiciona preenchimento */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    cursor: pointer; /* Muda o cursor para indicar interatividade */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Altera a cor de fundo ao passar o mouse */
+}

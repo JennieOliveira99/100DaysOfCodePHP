@@ -1,0 +1,25 @@
+{
+    "name": "jennie/day44",
+    "description": "atividade-rotas",
+
+    "authors": [
+        {
+            "name": "JennieOliveira99",
+            "email": "jennyferoliveira7315@gmail.com"
+        }
+    ],
+    "require": {},
+
+"autoload": {
+    "files": [
+        
+        "app/router/router.php"
+    ],
+    "psr-4": {
+        "Jennie\\Day44\\": "src/",
+        "app\\": "app/" 
+    }
+}
+
+
+}

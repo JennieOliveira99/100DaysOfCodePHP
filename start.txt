@@ -2,4 +2,11 @@ No terminal:
 sudo /opt/lampp/lampp startapache
 
 Na Url:
-localhost/100/100DaysOfCodePHP/Project/nome_do_arquivo.php
+localhost/100/100DaysOfCodePHP/Project/Day44/public/
+
+para fechar:
+sudo /etc/init.d/apache2 stop
+
+para permissoes:
+ls -l
+chmod 755 /opt/lampp/htdocs/Estrutura
