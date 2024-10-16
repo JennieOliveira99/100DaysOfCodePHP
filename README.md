@@ -48,12 +48,59 @@ Para formar meu roteiro de estudos eu me baseei no livro: "PHP Programando com O
 | `33` | `  Práticas` | Prática adicional com condicionais e pilhas  |
 | `34` | `  Práticas` | Prática adicional com Lista duplamente encadeada |
 | `35` | `  Aula Faculdade` | Práticas com Json e PHP  |
-| `37` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulpario de pedidos de áudiobook utilizando Filas |
-| `38` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulpario de pedidos de áudiobook utilizando Filas |
-| `39` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulpario de pedidos de áudiobook utilizando Filas |
-| `40` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulpario de pedidos de áudiobook utilizando Filas |
-| `41` | `  Revisão de Classes` | Prática adicional com condicionais e pilhas  |
-| `42` | `  Revisão de Classes` | Prática adicional com condicionais e pilhas  |
+| `37` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulario de pedidos de áudiobook utilizando Filas |
+| `38` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulario de pedidos de áudiobook utilizando Filas |
+| `39` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulario de pedidos de áudiobook utilizando Filas |
+| `40` | `  37-40 - Projeto formulário de pedidos` | Projeto de Formulario de pedidos de áudiobook utilizando Filas |
+| `41` | `  Revisão de Classes` | Prática adicional com Classes  |
+| `42` | `  Revisão de Classes` | Prática adicional com Classes  |
+| `43` | `  Revisão de Classes` | Prática adicional com Classes  |
+| `44` | `  Introdução MVC e Composer` | Introdução Estrutura de pastas, MVC e Composer  |
+| `45` | `  Projeto MVC` | Projeto MVC  |
+| `46` | `  Projeto MVC` | Projeto MVC, debug  |
+| `47` | `  Projeto MVC` | Projeto MVC, debug  |
+| `48` | `  Projeto MVC` | Projeto MVC, debug  |
+| `49` | `  Aula Faculdade` | Exercícios convertendo inputs em .Json, estudos com Include e Require  |
+| `50` | `  Revisão` | Aula Faculdade Revisão e continuidade nos exercícios  |
+| `51` | `  Projeto MVC` | Continuidade Rotas e Views  |
+| `52` | `  Projeto MVC` | Projeto MVC, debug  |
+| `53` | `  Projeto MVC` | Projeto MVC, debug  |
+| `54` | `  Projeto MVC` | Projeto MVC, debug  |
+| `55` | `   Projeto MVC` | Revisão da matéria Estrutura de Dados com PHP  |
+| `56` | `   Projeto MVC` | Projeto MVC, debug  |
+| `57` | `   Projeto MVC` | Projeto MVC, debug  |
+| `58` | `   Projeto MVC` | Projeto MVC, finalização  |
+| `59` | `   Introdução Listas Ligadas` | Introdução Listas Ligadas  |
+| `60` | `   Introdução Listas Ligadas` | Práticas Listas Ligadas  |
+| `61` | `   Introdução Listas Ligadas` | Práticas Listas Duplamente Ligadas  |
+| `62` | `   Revisão Listas Ligadas e Duplamente Ligadas` | Anotações e trechos de códigos sobre Linked List  |
+| `63` | `   Introdução Lista Linear e Lista Linear Sequencial` | Introdução Lista Linear e Lista Linear Sequencial |
+| `64` | `   Introdução Buscas Binárias` | Introdução Buscas Binárias e Projeto Lista de Tarefas|
+| `65` | `   Projeto Lista de Tarefas` | Projeto Lista de Tarefas|
+| `66` | `   Projeto Lista de Tarefas` | Projeto Lista de Tarefas|
+| `67` | `   Introdução Árvores` | Introdução Árvores|
+| `68` | `   Aula Faculdade` | Avaliação Estrutura de Dados com PHP |
+| `69` | `   Práticas Árvores` | Práticas Árvores |
+| `70` | `   Práticas Árvores` | Práticas Árvores |
+| `71 - 75` | `   Projeto` | Projeto Front End |
+| `76` | `   Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Introdução API com PHP |
+| `77` | `   Prática CRUD` | Prática CRUD MySQL |
+| `78` | `   POO - Revisão e Prática Classes` | Instâncias de classes, tipos de classes |
+| `79` | `   POO -Revisão e Prática Classes` | Instâncias de classes, tipos de classes |
+| `80` | `   POO -Revisão e Prática Classes` | Instâncias de classes, tipos de classes |
+| `81` | `   POO - Construtores e Destrutores` | Introdução Construtores e Destrutores |
+| `82` | `   POO - Construtores e Destrutores` | Práticas |
+| `83` | `   Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Validaçoes de dados e tratamentos de erros |
+| `84` | `  Revisão Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Validaçoes de dados e tratamentos de erros |
+| `85` | `   POO - Revisão Geral` | Práticas Classe, atributo, método, encapsulamento, herança, getters e setters, sobrecarga de método |
+| `86` | `  Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Validaçoes de dados , tratamentos de erros e rotas |
+| `87` | `  Revisão Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Validaçoes de dados, tratamentos de erros  e rotas|
+| `88` | `  Revisão e Debug Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Validaçoes de dados, tratamentos de erros  e rotas|
+| `89` | `  Revisão e Debug Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Validaçoes de dados, tratamentos de erros  e rotas|
+| `90` | `  Revisão e Debug Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Validaçoes de dados, tratamentos de erros  e rotas|
+| `91 - 92` | `   Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Validaçoes de dados, tratamentos de erros  e rotas|
+| `93` | `  Revisão  Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Revisão  Validaçoes de dados, tratamentos de erros  e rotas|
+
 
 ## Como Usar:
 
