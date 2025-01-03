@@ -100,7 +100,14 @@ Para formar meu roteiro de estudos eu me baseei no livro: "PHP Programando com O
 | `90` | `  Revisão e Debug Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Validaçoes de dados, tratamentos de erros  e rotas|
 | `91 - 92` | `   Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Validaçoes de dados, tratamentos de erros  e rotas|
 | `93` | `  Revisão  Aula Faculdade SOA(Arquitetura Orientada a Serviços)` | Revisão  Validaçoes de dados, tratamentos de erros  e rotas|
-
+| `94` | `  Revisão Etrutura de Dados ` | Exercícios de Estrutura de Dados (Arrays, Pilhas, Filas, etc.). Revisão dos conceitos principais |
+| `95` | `  Basic Authentication` | Introdução ao conceito de autenticação básica em APIs e como implementá-la em PHP|
+| `95` | `  JWT` | Introdução ao JWT, explicação do funcionamento e como utilizá-lo para autenticação de APIs|
+| `96` | `  JWT` | Prática: Criação de um sistema e autenticação utilizando JWT|
+| `97` | `  JWT` |  Prática de integração de JWT em uma API RESTful, gerando e validando tokens de autenticação|
+| `98` | `  JWT` |  Práticas API + JWT|
+| `99` | `  Refatoração e Performance ` |  Refatoração de códigos anteriores: melhorias, otimizações e melhores práticas|
+| `100` | ` Refatoração e Performance ` | Análise de performance finalização de ajustes nos projetos|
 
 ## Como Usar:
 
@@ -120,7 +127,11 @@ Para formar meu roteiro de estudos eu me baseei no livro: "PHP Programando com O
 
 <h3>Cifra de César</h3> 
 
-[![Outro Repositório](https://img.shields.io/badge/%20Repositório-Ver%20Aqui-purple.svg)](https://github.com/JennieOliveira99/Cifra_de_Cesar)
+[![Outro Repositório](https://img.shields.io/badge/%20Repositório-Ver%20Aqui-purple.svg)](https://github.com/JennieOliveira99/CipherCraft.git)
+
+<h3>Atividade Desenvolvimento para servidores - Revião Estrutura de Dados </h3> 
+
+[![Outro Repositório](https://img.shields.io/badge/%20Repositório-Ver%20Aqui-blue.svg)](https://github.com/JennieOliveira99/DSI-ATV.git)
 
 ##
 <p>Quer partipicar do projeto e não sabe por onde começar? Que tal dar uma olhadinha nas regras do desafio?</p>
