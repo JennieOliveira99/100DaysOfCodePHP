@@ -1,0 +1,43 @@
+
++ adição - subtração 
+* multiplicação 
+/ divisão 
+% módulo
+
+ Operadores de Strings 
+concatenação 
+
+Operadores de atribuição 
+= atribuição simples 
++= atribuição com adição -= atribuição com subtração 
+*= atribuição com multiplicação 
+/= atribuição com divisão 
+%= atribuição com módulo 
+.= atribuição com concatenação 
+
+
+Operadores Lógicos 
+and “e” lógico 
+or “ou” lógico 
+xor ou exclusivo 
+! não (inversão) 
+&& “e” lógico 
+|| “ou” lógico 
+
+
+Operadores de Comparação 
+== igual a 
+=== igual (conteúdo) e também (tipo de dado);  
+!= diferente de 
+< menor que 
+> maior que 
+<= menor ou igual a 
+>= maior ou igual a 
+
+
+Operadores de incremento e decremento 
+++ incremento 
+-- decremento 
+
+
+
