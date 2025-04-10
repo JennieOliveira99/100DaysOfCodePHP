@@ -1,0 +1,37 @@
+Criamos um banco de dados:
+
+CREATE DATABASE soa;
+
+USE soa;
+
+-- Criação da tabela 'categoria'
+CREATE TABLE categoria (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    descricao VARCHAR(100) NOT NULL
+);
+
+-- Criação da tabela 'produto' sem a chave estrangeira inicialmente
+CREATE TABLE produto (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    categoria_id INT,
+    descricao VARCHAR(100) NOT NULL,
+    valor DECIMAL(9,2) NOT NULL,
+    sku VARCHAR(10)
+);
+
+
+
+INSERT INTO categoria (descricao) VALUES 
+('Eletrônicos'),
+('Roupas'),
+('Alimentos');
+
+
+
+INSERT INTO produto (categoria_id, descricao, valor, sku) VALUES
+(1, 'Smartphone', 1999.99, 'ELE1234567'),
+(2, 'Camisa', 49.90, 'ROU9876543'),
+(3, 'Arroz', 15.75, 'ALI5432109');
+
+
+

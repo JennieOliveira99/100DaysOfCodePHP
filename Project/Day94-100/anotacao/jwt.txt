@@ -1,0 +1,31 @@
+JSON Web Token
+-leve e consome menos recurso
+Possui  tres partes e sempre tem 2 pontos .  
+antes do ponto: header(cabeçalho)
+no primeiro ponto: payload(conteudo)
+depois do segundo ponto: signature(assinatura)
+
+header:
+obrigatoriamente possui a chave alg 
+"alg":"HS256",
+que tipo de algoritmo foi usado para assinatura
+campo opcional: "typ": "JWT"//tipo
+
+payload:
+informacoes para deixar guardada como quando vai expirar
+ex:
+{
+"user": "usuario",
+//iat: data e hora em que foi gerado
+//exp: espira em
+}
+
+signature:
+gera um hash a partir das duas informações acima
+
+*o algoritmo é obrigatorio porem seu tipo muda de acordo com a linguagem utilizada
+**algoritmos smpre com letra maiuscula
+*typ sempre JWT
+
+ler:
+https://www.totvs.com/blog/gestao-para-assinatura-de-documentos/jwt-token/
